@@ -79,6 +79,11 @@ img.zweeflinks {
 height:192px;
 border: rgb(155,155,155) 1px solid;}
 
+a img {clear:both;
+width:698px;
+height:300px;
+margin-right:0px;
+border: 1px solid lightblue;}
 
 /* links */
 .smalltext {
@@ -96,6 +101,13 @@ a:hover {
 
 strong {color: rgb(175,175,175);
 font-family: georgia, 'serif';}
+
+.klein {height:100px;}
+
+.link-uitleg {height:17px;
+width:500px;
+margin-left: 150px;
+margin-top:10px;}
 
 /* navigatiebalk */
 nav ul {
