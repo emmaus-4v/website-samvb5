@@ -125,7 +125,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color:rgb(180,180,180);
+    color:rgb(170,170,170);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -136,6 +136,7 @@ nav li a:hover {
 }
 
 nav li a.active {
+    color:rgb(200, 200, 200);
     background-color:rgb(9, 45, 56);
 }
 
