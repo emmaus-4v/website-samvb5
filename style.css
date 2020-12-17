@@ -66,13 +66,6 @@ margin-left:5px;
 margin-bottom: 5px;
 margin-right:75px;}
 
-img.zweeflinks {
-    float:left;
-    margin-left:15px;
-    margin-right:15px;
-    border: rgb(155,155,155) solid 1px;
-}
-
 .karakterfoto {width:200px;
 height:192px;
 border: rgb(155,155,155) 1px solid;}
@@ -84,6 +77,7 @@ margin-right:0px;
 border: 1px solid lightblue;}
 
 /* links en speciale tags */
+
 .smalltext {
     font-size: 0.7em;
 }
@@ -97,6 +91,7 @@ a:hover {
     text-decoration:underline;
 }
 
+/* ik heb ervoor gekozen om kleine titels niet met h tag te doen, maar met de strong tag*/
 strong {color: rgb(175,175,175);
 font-family: georgia, 'serif';}
 
@@ -108,6 +103,7 @@ margin-left: 150px;
 margin-top:10px;}
 
 /* navigatiebalk */
+
 nav ul {
     list-style-type: none;
     margin: auto;
@@ -139,6 +135,7 @@ nav li a.active {
 }
 
 /* special effects */
+
 @keyframes veranderkleur{0% {color:rgb(7, 10, 44);} 
 100% {color:rgb(0, 183, 255);}}
 
