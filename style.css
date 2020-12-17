@@ -44,8 +44,6 @@ footer {
     clear: both;
 }
 
-.algemeen {width:700px;}
-
 /* afleveringen */
 
 ol {float: left;
@@ -56,7 +54,7 @@ margin:0px;}
 article li {margin:20px;
 margin-top:6px;}
 
-.introductie {height:40px;
+.introductie {height: 70px;
 width:700px;}
 
 /* foto stijlen */
@@ -85,7 +83,7 @@ height:300px;
 margin-right:0px;
 border: 1px solid lightblue;}
 
-/* links */
+/* links en speciale tags */
 .smalltext {
     font-size: 0.7em;
 }
@@ -146,7 +144,10 @@ nav li a.active {
 
 .veranderkleur {animation: veranderkleur 8s}
 
-@keyframes slide { 0% {position:relative; right:1000px;
+@keyframes slide-left { 0% {position:relative; right:1000px;
 } 100% {position:relative; right:0px;}}
+.slide-left {animation: slide-left 3s}
 
-.slide {animation: slide 3s}
+@keyframes slide-right { 0% {position:relative; left:1000px;
+} 100% {position:relative; left:0px;}}
+.slide-right {animation: slide-right 3s}
